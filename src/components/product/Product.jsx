@@ -1,10 +1,17 @@
 import React from 'react';
 import "./product.css";
 
-const Product = () => {
+const Product = ({img, link}) => {
     return (
-        <div>
-            card
+        <div className="p">
+            <div className="p-browser">
+                <div className="p-circle" style={{backgroundColor:"red"}}></div>
+                <div className="p-circle" style={{backgroundColor:"green"}}></div>
+                <div className="p-circle" style={{backgroundColor:"yellow"}}></div>
+            </div>
+            <a href={link} target="_blank" rel="noreferrer">
+                <img src={img} alt="" className="p-img" />
+            </a>
         </div>
     )
 }
