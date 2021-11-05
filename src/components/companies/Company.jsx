@@ -42,7 +42,7 @@ const Company = () => {
                     
                     <div style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
                         <img src={Netfective} alt="" className="a-award-img" style={{backgroundColor:darkMode ? "#777" : "#eee"}} />
-                        <p>Ntfective</p>
+                        <p>Netfective</p>
                     </div>
                     
                     <div style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
