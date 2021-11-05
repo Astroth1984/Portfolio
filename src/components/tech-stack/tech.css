@@ -1,0 +1,94 @@
+.ts {
+    background: #eee;
+    padding: 30px 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ts-texts {
+    width: 45%;
+}
+
+.ts-title {
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: -25px;
+}
+
+.ts-list {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.t-item {
+    width: 10%;
+    height: 10vh;
+    margin: 10px 10px;
+    overflow: hidden;
+    color: #333;
+    cursor: pointer;
+}
+
+.angular:hover {
+    color: #a6120d;
+}
+
+.javascrpit:hover {
+    color: #f0db4f;
+}
+
+.typescript:hover {
+    color: #007acc;
+}
+
+.react:hover {
+    color: #36dff8;
+}
+
+.node:hover {
+    color: #3c873a;
+}
+
+.swagger:hover {
+    color: #42b883;
+}
+
+.postman:hover {
+    color: #f46f25;
+}
+
+.elastic:hover {
+    color: #00ffff;
+}
+
+.mongo:hover {
+    color: #0cd45b;
+}
+
+.postgres:hover {
+    color: #008bb9;
+}
+
+.mysql:hover {
+    color: #00758F;
+}
+
+.git:hover {
+    color: #f34f29;
+}
+
+@media screen and (max-width: 480px) {
+    .ts {
+        padding: 10px;
+    }
+    .ts-texts {
+        width: 100%;
+    }
+    .ts-desc {
+        display: none;
+    }
+}
