@@ -1,9 +1,11 @@
 import { useContext } from "react";
 import About from "./components/about/about";
+import Company from "./components/companies/Company";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Intro from "./components/intro/intro";
 import ProductList from "./components/productList/ProductList";
+import Tech from "./components/tech-stack/Tech";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 
@@ -16,6 +18,8 @@ const App = () => {
         <Toggle />
         <Intro />
         <About />
+        <Tech />
+        <Company />
         <ProductList />
         <Contact />
         <Footer />
