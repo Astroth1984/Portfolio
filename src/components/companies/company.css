@@ -1,0 +1,19 @@
+/* .com-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.com-left {
+    flex: 1;
+} */
+
+.com-card {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: #333;
+}
