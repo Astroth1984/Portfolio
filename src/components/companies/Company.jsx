@@ -36,7 +36,7 @@ const Company = () => {
                     </div>
                     
                     <div style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
-                        <img src={Decod} alt=""X className="a-award-img" style={{backgroundColor:darkMode ? "#777" : "#eee"}} />
+                        <img src={Decod} alt="" className="a-award-img" style={{backgroundColor:darkMode ? "#777" : "#eee"}} />
                         <p>DECOD</p>
                     </div>
                     
