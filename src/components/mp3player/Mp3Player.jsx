@@ -1,5 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
+import Player from './components/Player';
+import"./player.css";
 
 const Mp3Player = () => {
     const [songs, setSongs] = useState([
@@ -28,9 +30,17 @@ const Mp3Player = () => {
             src: "./music/nutshell.mp3"
           }
     ]);
+
+    const [currentSongIndex, setcurrentSongIndex] = useState(0);
+    const [nextSongIndex, setNexttSongIndex] = useState(currentSongIndex + 1);
+
     return (
         <div className="mp3-player">
-            mp3 player
+            <Player 
+              currentSongIndex={currentSongIndex} 
+              nextSongIndex={nextSongIndex} 
+              songs={songs} 
+            />
         </div>
     )
 }
