@@ -15,7 +15,7 @@ const Footer = () => {
     const theme = useContext(ThemeContext);
     const darkMode = theme.state.darkMode;
     return (
-        <div class="social-container" style={{backgroundColor: darkMode && "#666"}}>
+        <div className="social-container" style={{backgroundColor: darkMode && "#666"}}>
             <div className="social-bg"></div>
             <h3>Social Follow</h3>
             <a href="https://www.linkedin.com/in/el-mounir-othmane-21ab46147/" target="_blank" rel="noreferrer"
