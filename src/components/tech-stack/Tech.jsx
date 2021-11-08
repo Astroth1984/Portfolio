@@ -11,7 +11,7 @@ const Tech = () => {
     const theme = useContext(ThemeContext);
     const darkMode = theme.state.darkMode;
     return (
-        <div class="ts" style={{backgroundColor: darkMode && "#666"}}>
+        <div className="ts" style={{backgroundColor: darkMode && "#666"}}>
             <div className="ts-texts">
                 <h1 className="ts-title">Tech Stack</h1>
             </div>
