@@ -1,10 +1,10 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Player from './components/Player';
 import"./player.css";
 
 const Mp3Player = () => {
-    const [songs, setSongs] = useState([
+    const [songs] = useState([
         {
             title: "In This River",
             artist: "Black Label Society",
@@ -31,13 +31,24 @@ const Mp3Player = () => {
           }
     ]);
 
-    const [currentSongIndex, setcurrentSongIndex] = useState(0);
+    const [currentSongIndex, setCurrentSongIndex] = useState(0);
     const [nextSongIndex, setNexttSongIndex] = useState(currentSongIndex + 1);
+
+    useEffect(() =>{
+      setNexttSongIndex(() => {
+        if(currentSongIndex + 1 > songs.length){
+          return 0;
+        } else {
+          return currentSongIndex + 1;
+        }
+      }); 
+    }, [currentSongIndex])
 
     return (
         <div className="mp3-player">
             <Player 
-              currentSongIndex={currentSongIndex} 
+              currentSongIndex={currentSongIndex}
+              setCurrentSongIndex={setCurrentSongIndex} 
               nextSongIndex={nextSongIndex} 
               songs={songs} 
             />
