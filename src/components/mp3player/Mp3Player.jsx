@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
+import { useTransition } from 'react-transition-state';
 import Player from './components/Player';
+import ToggleLoader from './components/ToggleLoader';
 import"./player.css";
 
 const Mp3Player = () => {
@@ -33,6 +35,11 @@ const Mp3Player = () => {
 
     const [currentSongIndex, setCurrentSongIndex] = useState(0);
     const [nextSongIndex, setNexttSongIndex] = useState(currentSongIndex + 1);
+    const [toggle, setToggle] = useState(false);
+
+    const handleToggle = () => {
+        setToggle(!toggle)
+    }
 
     useEffect(() =>{
       setNexttSongIndex(() => {
@@ -50,9 +57,13 @@ const Mp3Player = () => {
               currentSongIndex={currentSongIndex}
               setCurrentSongIndex={setCurrentSongIndex} 
               nextSongIndex={nextSongIndex} 
-              songs={songs} 
+              songs={songs}
+              toggle={toggle}
             />
+            
+            <ToggleLoader handleToggle={handleToggle} songs={songs} currentSongIndex={currentSongIndex} />
         </div>
+
     )
 }
 
