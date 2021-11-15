@@ -1,4 +1,5 @@
 import React from 'react';
+import Tooltip from "react-simple-tooltip";
 import { ThemeContext } from '../../context';
 import { useContext } from 'react';
 import Geolane from "../../img/geolane.png";
@@ -8,6 +9,7 @@ import Skopai from "../../img/skopai.png";
 import Henceforth from "../../img/henceforth.png";
 import Matrix from "../../img/Matrix.PNG";
 import "./company.css";
+import {css} from "styled-components";
 
 const Company = () => {
 
@@ -26,27 +28,72 @@ const Company = () => {
                 </p>
                 <div className="a-award" style={{marginLeft: "50px"}}>
                     <div style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
-                        <img src={Henceforth} alt="" className="a-award-img" style={{backgroundColor:darkMode ? "#777" : "#eee"}}/>
+                        <Tooltip
+                           content="Internship - 3 Months"
+                           customCss={css`
+                             white-space: nowrap;
+                             font-size: 12px;
+                             font-weight: 30;            
+                        `}
+                        >
+                            <img src={Henceforth} alt="" className="a-award-img" style={{backgroundColor:darkMode ? "#777" : "#eee"}}/>
+                        </Tooltip>
                         <p>henceforth</p>
                     </div>
                     
                     <div style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
-                        <img src={Skopai} alt="" className="a-award-img" style={{backgroundColor:darkMode ? "#777" : "#eee"}} />
+                        <Tooltip
+                           content="Final Studies Internship: MEAN Stack (7 Months)"
+                           customCss={css`
+                             white-space: nowrap;
+                             font-size: 12px;
+                             font-weight: 30;            
+                        `}
+                        >
+                            <img src={Skopai} alt="" className="a-award-img" style={{backgroundColor:darkMode ? "#777" : "#eee"}} />
+                        </Tooltip>
                         <p>Skopai</p>
                     </div>
                     
                     <div style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
-                        <img src={Decod} alt="" className="a-award-img" style={{backgroundColor:darkMode ? "#777" : "#eee"}} />
+                        <Tooltip
+                           content="Freelance: MEAN Stack (2 Months)"
+                           customCss={css`
+                             white-space: nowrap;
+                             font-size: 12px;
+                             font-weight: 30;            
+                        `}
+                        >
+                            <img src={Decod} alt="" className="a-award-img" style={{backgroundColor:darkMode ? "#777" : "#eee"}} />
+                        </Tooltip>
                         <p>DECOD</p>
                     </div>
                     
                     <div style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
-                        <img src={Netfective} alt="" className="a-award-img" style={{backgroundColor:darkMode ? "#777" : "#eee"}} />
+                        <Tooltip
+                           content="Full Time: Software Engineer (2 Months)"
+                           customCss={css`
+                             white-space: nowrap;
+                             font-size: 12px;
+                             font-weight: 30;            
+                        `}
+                        >
+                            <img src={Netfective} alt="" className="a-award-img" style={{backgroundColor:darkMode ? "#777" : "#eee"}} />
+                        </Tooltip>
                         <p>Netfective</p>
                     </div>
                     
                     <div style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
-                        <img src={Geolane} alt="" className="a-award-img" style={{backgroundColor:darkMode ? "#777" : "#eee"}} />
+                        <Tooltip
+                           content="Full Remote: Front-End Dev/React-Native & Angular (12 Months)"
+                           customCss={css`
+                             white-space: nowrap;
+                             font-size: 12px;
+                             font-weight: 30;            
+                        `}
+                        >
+                            <img src={Geolane} alt="" className="a-award-img" style={{backgroundColor:darkMode ? "#777" : "#eee"}} />
+                        </Tooltip>
                         <p>Géolane</p>
                     </div>
                     
