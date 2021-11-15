@@ -5,6 +5,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Intro from "./components/intro/intro";
 import Mp3Player from "./components/mp3player/Mp3Player";
+import Pdfsacer from "./components/pdfsaver/Pdfsacer";
 import ProductList from "./components/productList/ProductList";
 import Tech from "./components/tech-stack/Tech";
 import Toggle from "./components/toggle/Toggle";
@@ -25,6 +26,7 @@ const App = () => {
         <Contact />
         <Footer />
         <Mp3Player />
+        <Pdfsacer />
       </div>
   );
 };
