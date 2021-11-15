@@ -1,9 +1,12 @@
 import React from 'react';
 import "./intro.css";
 import Me from "../../img/me.png";
+
 import { GlitchedImage } from 'react-image-glitch';
 
 const intro = () => {
+
+
     return (
         <div className="i">
             <div className="i-left">
@@ -82,11 +85,12 @@ const intro = () => {
             </div>
             <div className="i-right">
                 <div className="i-bg"></div>
-                <GlitchedImage 
+                  <GlitchedImage 
                           image={Me} 
                           className ="i-img" 
                           style={{ flexGrow: 1, width: "85%",height: "100%"}} 
-                />
+                  /> 
+                
                 {/* <img src={Me} alt="" className="i-img" /> */}
             </div>
         </div>
