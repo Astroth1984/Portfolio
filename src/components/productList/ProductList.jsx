@@ -6,11 +6,10 @@ const ProductList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">Create & inspire. It's Lama</h1>
+        <h1 className="pl-title">Create & inspire. It's Astroth1984</h1>
         <p className="pl-desc">
-          Lama is a creative portfolio that your work has been waiting for.
-          Beautiful homes, stunning portfolio styles & a whole lot more awaits
-          inside.
+          Let the work speaks for itself. All my case studies are Open Source and available on GitHub.
+          For more technical details, other projects and code snippets, please check out the Repositories 
         </p>
       </div>
       <div className="pl-list">

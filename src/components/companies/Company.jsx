@@ -18,13 +18,16 @@ const Company = () => {
     return (
         <div className="a">
             <div className="a-right">
-                <h1 className="a-title" style={{marginLeft: "50px"}}>About Me</h1>
-                <p className="a-sub" style={{marginLeft: "50px"}}>Somthing</p>
+                <h1 className="a-title" style={{marginLeft: "50px"}}>Professional Experience</h1>
+                <p className="a-sub" style={{marginLeft: "50px"}}>Companies I Worked For</p>
                 <p className="a-desc" style={{marginLeft: "50px"}}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                  minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+                    Throughout my professional experience, i worked under the flag of many companies and startups. I faced many challenges and learned from every dev team member.
+                </p>
+                <p className="a-desc" style={{marginLeft: "50px"}}>
+                    You can hover over the companies to see more details.
+                </p>
+                <p className="a-desc" style={{marginLeft: "50px"}}>
+                    If you want to know more about my professional experince, the missions and the stack i worked with, please visit my Linkedin profil.
                 </p>
                 <div className="a-award" style={{marginLeft: "50px"}}>
                     <div style={{display:"flex", flexDirection:"column", alignItems:"center"}}>

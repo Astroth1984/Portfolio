@@ -17,24 +17,29 @@ const About = () => {
             <div className="a-right">
                 <h1 className="a-title">About Me</h1>
                 <p className="a-sub">
-                  It is a long established fact that a reader will be distracted by the
-                  readable content.
+                  <strong>" To strive. To seek. To find and be found, and not To yield "{'    '} - Detachment (2011)</strong>
                 </p>
                 <p className="a-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                  minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+                  Always curious and motivated to learn more. I can adapt to any form of the Tech-Stack and make use of the documentations. 
+                </p>
+                <p className="a-desc">I code better in the Dark Mode, it makes me feel that i'm doing something worth staying up all night.</p>
+                <p className="a-desc">
+                  A man in black. A Metalhead and Cinephile.
+                  </p>
+                <p className="a-desc">
+                  Also as a bonus, you can check out my top 10 favorite tracks on the mp3 Player, some amazing solos are hidden there.
+                </p>
+                <p className="a-desc">
+                  If i ever did not respond on time, i must have been made it to the Burning man Festival.
                 </p>
               <div className="a-award">
                 <a href="https://letterboxd.com/astroth1984/" target="_blank" rel="noreferrer">
                   <img src={Award} alt="" className="a-award-img" />
                 </a>
               <div className="a-award-texts">
-                <h4 className="a-award-title">International Design Awards 2021</h4>
+                <h4 className="a-award-title">Letterboxd Profil: Astroth1984</h4>
                 <p className="a-award-desc">
-                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-                  and fugit.
+                  Rewarded with Pro status on letterboxed. Click on the letterboxd icon for movies suggestions. Or also you can mail me your favorite ones, never say no to a movie suggestion.
                 </p>
               </div>
             </div>

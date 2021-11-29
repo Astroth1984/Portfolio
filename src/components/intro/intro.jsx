@@ -11,19 +11,24 @@ const intro = () => {
         <div className="i">
             <div className="i-left">
                 <div className="i-left-wrapper">
-                    <h2 className="i-intro">Hello, My name is</h2>
+                    <h2 className="i-intro">Ground Control to Major Tom, My name is</h2>
                     <h1 className="i-name">EL Mounir Othmane</h1>
                     <div className="i-title">
                         <div className="i-title-wrapper">
+                        <div className="i-title-item">Software Engineer</div>
                             <div className="i-title-item">Web Developper</div>
+                            <div className="i-title-item">MEAN Stack Developper</div>
+                            <div className="i-title-item">MERN Stack Developper</div>
                             <div className="i-title-item">UI/UX Designer</div>
-                            <div className="i-title-item">Photographer</div>
-                            <div className="i-title-item">Writer</div>
-                            <div className="i-title-item">Content Creator</div>
                         </div>
                     </div>
                     <p className="i-desc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ea officia soluta illum nihil culpa, fugit dolor alias ipsum? Doloremque ipsa aliquid eius deleniti veritatis iusto perspiciatis libero quas debitis!
+                        I am a Software Engineer & Web Developer. I enjoy building everything from sratch or adding new features, from small business sites to rich interactive softwares and applications.
+                    </p> 
+                    <p className="i-desc"> With every line of code, i strive to feed my curiosity and learn better practices.</p>
+                    
+                    <p className="i-desc"> 
+                        If you are a business seeking a web presence, an IT company, or an employer looking to hire, you can get in touch with me here, or Download my resume for more informations
                     </p>
                 </div>
                 <svg
